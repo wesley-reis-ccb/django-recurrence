@@ -1004,92 +1004,90 @@ if (!recurrence.display)
     recurrence.display = {};
 
 recurrence.display.tokens = {
-    'midnight': gettext('midnight'),
-    'noon': gettext('noon'),
-    'on_the_items': gettext('on the %(items)s'),
-    'every_number_freq': gettext('every %(number)s %(freq)s'),
-    'each': gettext('each %(items)s'),
-    'count': gettext('occuring %(number)s time'),
-    'count_plural': gettext('occuring %(number)s times'),
-    'until': gettext('until %(date)s')
+    'midnight': 'meia-noite',
+    'noon': 'meio-dia',
+    'on_the_items': 'no(s) %(items)s',
+    'every_number_freq': 'toda(o) %(number)s %(freq)s',
+    'each': 'cada %(items)s',
+    'count': 'ocorrendo %(number)s vez(es)',
+    'count_plural': 'ocorrendo %(number)s vez(es)',
+    'until': 'até %(date)s'
 };
 
 recurrence.display.timeintervals = [
-    gettext('year'), gettext('month'), gettext('week'), gettext('day'),
-    gettext('hour'), gettext('minute'), gettext('second')
+    'ano', 'mês', 'semana', 'dia',
+    'hora', 'minuto', 'segundo'
 ];
 recurrence.display.timeintervals_plural = [
-    gettext('years'), gettext('months'), gettext('weeks'), gettext('days'),
-    gettext('hours'), gettext('minutes'), gettext('seconds')
+    'anos', 'meses', 'semanas', 'dias',
+    'horas', 'minutos', 'segundos'
 ];
 recurrence.display.frequencies = [
-    gettext('annually'), gettext('monthly'), gettext('weekly'), gettext('daily'),
-    gettext('hourly'), gettext('minutely'), gettext('secondly')
+    'anualmente', 'mensalmente', 'semanalmente', 'diariamente',
+    'por hora', 'por minutos', 'por segundo'
 ];
 recurrence.display.weekdays = [
-    gettext('Monday'), gettext('Tuesday'), gettext('Wednesday'), gettext('Thursday'),
-    gettext('Friday'), gettext('Saturday'), gettext('Sunday')
+    'Segunda', 'Terça', 'Quarta', 'Quinta',
+    'Sexta', 'Sábado', 'Domingo'
 ];
 recurrence.display.weekdays_short = [
-    gettext('Mon'), gettext('Tue'), gettext('Wed'), gettext('Thu'),
-    gettext('Fri'), gettext('Sat'), gettext('Sun')
+    'Seg', 'Ter', 'Qua', 'Qui',
+    'Sex', 'Sáb', 'Dom'
 ];
 recurrence.display.weekdays_oneletter = [
-    pgettext('Monday first letter', 'M'),
+    pgettext('Monday first letter', 'S'),
     pgettext('Tuesday first letter', 'T'),
-    pgettext('Wednesday first letter', 'W'),
-    pgettext('Thursday first letter', 'T'),
-    pgettext('Friday first letter', 'F'),
+    pgettext('Wednesday first letter', 'Q'),
+    pgettext('Thursday first letter', 'Q'),
+    pgettext('Friday first letter', 'S'),
     pgettext('Saturday first letter', 'S'),
-    pgettext('Sunday first letter', 'S')
+    pgettext('Sunday first letter', 'D')
 ];
 recurrence.display.weekdays_position = {
-    '1': gettext('first %(weekday)s'),
-    '2': gettext('second %(weekday)s'),
-    '3': gettext('third %(weekday)s'),
-    '4': gettext('fourth %(weekday)s'),
-    '-1': gettext('last %(weekday)s'),
-    '-2': gettext('second last %(weekday)s'),
-    '-3': gettext('third last %(weekday)s')
+    '1': 'primeiro %(weekday)s'),
+    '2': 'segundo %(weekday)s'),
+    '3': 'terceiro %(weekday)s'),
+    '4': 'quarto %(weekday)s'),
+    '-1': 'último %(weekday)s'),
+    '-2': 'penúltimo %(weekday)s'),
+    '-3': 'antepenúltimo %(weekday)s')
 };
 recurrence.display.weekdays_position_short = {
-    '1': gettext('1st %(weekday)s'),
-    '2': gettext('2nd %(weekday)s'),
-    '3': gettext('3rd %(weekday)s'),
-    '4': gettext('4th %(weekday)s'),
-    '-1': gettext('last %(weekday)s'),
-    '-2': gettext('2nd last %(weekday)s'),
-    '-3': gettext('3rd last %(weekday)s')
+    '1': '1º %(weekday)s',
+    '2': '2º %(weekday)s',
+    '3': '3º %(weekday)s',
+    '4': '4º %(weekday)s',
+    '-1': 'último %(weekday)s',
+    '-2': 'penúltimo %(weekday)s',
+    '-3': 'antepenúltimo %(weekday)s'
 };
 recurrence.display.last_of_month = {
-    '-1': gettext('last'),
-    '-2': gettext('second last'),
-    '-3': gettext('third last'),
-    '-4': gettext('fourth last')
+    '-1': 'último',
+    '-2': 'penúltimo',
+    '-3': 'antepenúltimo',
+    '-4': 'quarto último'
 }
 recurrence.display.last_of_month_short = {
-    '-1': gettext('last'),
-    '-2': gettext('2nd last'),
-    '-3': gettext('3rd last'),
-    '-4': gettext('4th last')
+    '-1': 'último',
+    '-2': 'penúltimo',
+    '-3': 'antepenúltimo',
+    '-4': 'quarto último'
 }
 recurrence.display.months = [
-    gettext('January'), gettext('February'), gettext('March'),
-    gettext('April'), pgettext('month name', 'May'), gettext('June'),
-    gettext('July'), gettext('August'), gettext('September'),
-    gettext('October'), gettext('November'), gettext('December')
+	'Janeiro', 'Fevereiro', 'Março','Abril','Maio',
+    'Junho','Julho','Agosto','Setembro','Outubro',
+    'Novembro', 'Dezembro'
 ];
 recurrence.display.months_short = [
-    gettext('Jan'), gettext('Feb'), gettext('Mar'),
-    gettext('Apr'), pgettext('month name', 'May'), gettext('Jun'),
-    gettext('Jul'), gettext('Aug'), gettext('Sep'),
-    gettext('Oct'), gettext('Nov'), gettext('Dec')
+    'Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun',
+    'Jul', 'Ago', 'Set',
+    'Out', 'Nov', 'Dez'
 ];
 recurrence.display.months_ap = [
-    gettext('Jan.'), gettext('Feb.'), gettext('March'),
-    gettext('April'), pgettext('month name', 'May'), gettext('June'),
-    gettext('July'), gettext('Aug.'), gettext('Sept.'),
-    gettext('Oct.'), gettext('Nov.'), gettext('Dec.')
+    'Jan.', 'Fev.', 'Mar.',
+    'Abr.', 'Mai.', 'Jun.',
+    'Jul.', 'Ago.', 'Set.',
+    'Out.', 'Nov.', 'Dez.'
 ];
 recurrence.display.ampm = {
     'am': gettext('a.m.'), 'pm': gettext('p.m.'),
