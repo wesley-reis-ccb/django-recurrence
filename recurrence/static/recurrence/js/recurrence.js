@@ -1008,9 +1008,9 @@ recurrence.display.tokens = {
     'noon': 'meio-dia',
     'on_the_items': 'no(s) %(items)s',
     'every_number_freq': 'toda(o) %(number)s %(freq)s',
-    'each': 'cada %(items)s',
-    'count': 'ocorrendo %(number)s vez(es)',
-    'count_plural': 'ocorrendo %(number)s vez(es)',
+    'each': 'a cada %(items)s',
+    'count': 'Ocorre %(number)s vez',
+    'count_plural': 'Ocorre %(number)s vezes',
     'until': 'até %(date)s'
 };
 
@@ -1024,7 +1024,7 @@ recurrence.display.timeintervals_plural = [
 ];
 recurrence.display.frequencies = [
     'anualmente', 'mensalmente', 'semanalmente', 'diariamente',
-    'por hora', 'por minutos', 'por segundo'
+    'a cada hora', 'por minutos', 'por segundo'
 ];
 recurrence.display.weekdays = [
     'Segunda', 'Terça', 'Quarta', 'Quinta',
