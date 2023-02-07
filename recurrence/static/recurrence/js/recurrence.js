@@ -1044,13 +1044,13 @@ recurrence.display.weekdays_oneletter = [
     pgettext('Sunday first letter', 'D')
 ];
 recurrence.display.weekdays_position = {
-    '1': 'primeiro %(weekday)s'),
-    '2': 'segundo %(weekday)s'),
-    '3': 'terceiro %(weekday)s'),
-    '4': 'quarto %(weekday)s'),
-    '-1': 'último %(weekday)s'),
-    '-2': 'penúltimo %(weekday)s'),
-    '-3': 'antepenúltimo %(weekday)s')
+    '1': 'primeiro %(weekday)s',
+    '2': 'segundo %(weekday)s',
+    '3': 'terceiro %(weekday)s',
+    '4': 'quarto %(weekday)s',
+    '-1': 'último %(weekday)s',
+    '-2': 'penúltimo %(weekday)s',
+    '-3': 'antepenúltimo %(weekday)s'
 };
 recurrence.display.weekdays_position_short = {
     '1': '1º %(weekday)s',
@@ -1093,7 +1093,7 @@ recurrence.display.ampm = {
     'am': gettext('a.m.'), 'pm': gettext('p.m.'),
     'AM': gettext('AM'), 'PM': gettext('PM')
 };
-recurrence.display.month_day = pgettext('Day of month', '%j%S');
+recurrence.display.month_day = 'Dia do Mês', '%j%S';
 
 recurrence.display.ordinal_indicator = {
     'en': function(day) {
