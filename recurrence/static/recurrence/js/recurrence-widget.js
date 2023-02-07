@@ -1770,9 +1770,9 @@ recurrence.display.mode = {
 
 recurrence.display.labels = {
     'frequency': 'Frequência',
-    'on_the': 'Nos',
-    'each': 'A cada',
-    'every': 'Todo(a)',
+    'on_the': 'No(a)',
+    'each': 'Cada',
+    'every': 'Cada',
     'until': 'Até',
     'count': 'Ocorre %(number)s vez',
     'count_plural': 'Ocorre %(number)s vezes',
