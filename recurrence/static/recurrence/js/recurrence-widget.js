@@ -1778,11 +1778,11 @@ recurrence.display.labels = {
     'count_plural': 'Ocorre %(number)s vezes',
     'date': 'Data',
     'time': 'Hora',
-    'repeat_until': 'Repete até',
+    'repeat_until': 'Repetir até',
     'exclude_occurrences': 'Excluir essa(s) ocorrência(s)',
     'exclude_date': 'Excluir essa data',
     'add_rule': 'Adic. Regra',
     'add_date': 'Adic. Data',
     'remove': 'Remover',
-    'calendar': 'Calendar'
+    'calendar': 'Calendário'
 };
