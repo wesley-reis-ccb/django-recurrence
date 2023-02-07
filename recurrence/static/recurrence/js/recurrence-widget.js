@@ -1765,24 +1765,24 @@ if (!recurrence.display)
     recurrence.display = {};
 
 recurrence.display.mode = {
-    'inclusion': gettext('including'), 'exclusion': gettext('excluding')
+    'inclusion': 'incluindo', 'exclusion': 'excluindo'
 };
 
 recurrence.display.labels = {
-    'frequency': gettext('Frequency'),
-    'on_the': gettext('On the'),
-    'each': gettext('Each'),
-    'every': gettext('Every'),
-    'until': gettext('Until'),
-    'count': gettext('Occurs %(number)s time'),
-    'count_plural': gettext('Occurs %(number)s times'),
-    'date': gettext('Date'),
-    'time': gettext('Time'),
-    'repeat_until': gettext('Repeat until'),
-    'exclude_occurrences': gettext('Exclude these occurences'),
-    'exclude_date': gettext('Exclude this date'),
-    'add_rule': gettext('Add rule'),
-    'add_date': gettext('Add date'),
-    'remove': gettext('Remove'),
-    'calendar': gettext('Calendar')
+    'frequency': 'Frequência',
+    'on_the': 'Nos',
+    'each': 'A cada',
+    'every': 'Todo(a)',
+    'until': 'Até',
+    'count': 'Ocorre %(number)s vez',
+    'count_plural': 'Ocorre %(number)s vezes',
+    'date': 'Data',
+    'time': 'Hora',
+    'repeat_until': 'Repete até',
+    'exclude_occurrences': 'Excluir essa(s) ocorrência(s)',
+    'exclude_date': 'Excluir essa data',
+    'add_rule': 'Adic. Regra',
+    'add_date': 'Adic. Data',
+    'remove': 'Remover',
+    'calendar': 'Calendar'
 };
