@@ -1007,7 +1007,7 @@ recurrence.display.tokens = {
     'midnight': 'meia-noite',
     'noon': 'meio-dia',
     'on_the_items': 'no(s) %(items)s',
-    'every_number_freq': 'toda(o) %(number)s %(freq)s',
+    'every_number_freq': 'todo(a) %(number)s %(freq)s',
     'each': 'a cada %(items)s',
     'count': 'Ocorre %(number)s vez',
     'count_plural': 'Ocorre %(number)s vezes',
@@ -1044,34 +1044,34 @@ recurrence.display.weekdays_oneletter = [
     pgettext('Sunday first letter', 'D')
 ];
 recurrence.display.weekdays_position = {
-    '1': 'primeiro %(weekday)s',
-    '2': 'segundo %(weekday)s',
-    '3': 'terceiro %(weekday)s',
-    '4': 'quarto %(weekday)s',
-    '-1': 'último %(weekday)s',
-    '-2': 'penúltimo %(weekday)s',
-    '-3': 'antepenúltimo %(weekday)s'
+    '1': 'primeiro(a) %(weekday)s',
+    '2': 'segundo(a) %(weekday)s',
+    '3': 'terceiro(a) %(weekday)s',
+    '4': 'quarto(a) %(weekday)s',
+    '-1': 'último(a) %(weekday)s',
+    '-2': 'penúltimo(a) %(weekday)s',
+    '-3': 'antepenúltimo(a) %(weekday)s'
 };
 recurrence.display.weekdays_position_short = {
     '1': '1º %(weekday)s',
     '2': '2º %(weekday)s',
     '3': '3º %(weekday)s',
     '4': '4º %(weekday)s',
-    '-1': 'último %(weekday)s',
-    '-2': 'penúltimo %(weekday)s',
-    '-3': 'antepenúltimo %(weekday)s'
+    '-1': 'último(a) %(weekday)s',
+    '-2': 'penúltimo(a) %(weekday)s',
+    '-3': 'antepenúltimo(a) %(weekday)s'
 };
 recurrence.display.last_of_month = {
-    '-1': 'último',
-    '-2': 'penúltimo',
-    '-3': 'antepenúltimo',
-    '-4': 'quarto último'
+    '-1': 'último(a)',
+    '-2': 'penúltimo(a)',
+    '-3': 'antepenúltimo(a)',
+    '-4': 'quarto(a) último(a)'
 }
 recurrence.display.last_of_month_short = {
-    '-1': 'último',
-    '-2': 'penúltimo',
-    '-3': 'antepenúltimo',
-    '-4': 'quarto último'
+    '-1': 'último(a)',
+    '-2': 'penúltimo(a)',
+    '-3': 'antepenúltimo(a)',
+    '-4': 'quarto último(a)'
 }
 recurrence.display.months = [
 	'Janeiro', 'Fevereiro', 'Março','Abril','Maio',
